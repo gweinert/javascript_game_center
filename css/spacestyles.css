@@ -1,0 +1,49 @@
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #2980b9;
+}
+
+ul li {
+  list-style: none;
+}
+
+.sidebar{
+  padding: 0;
+}
+
+.game-grid {
+  width: 605px;
+  height: 800px;
+  margin: 0 auto;
+  border: solid 1px black;
+  background-color: #ecf0f1;
+}
+
+.cell {
+  /*border: 1px solid black;*/
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+
+.player {
+  background-color: green;
+}
+
+.enemy {
+  background-color: red;
+  border: 1px solid black;
+}
+
+.bullet {
+  background-color: blue;
+}
+
+.shooter {
+  background-color: black;
+}

@@ -1,0 +1,27 @@
+body {
+  background-color: #f39c12;
+  color: white;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+
+h1{
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 30%;
+  height: 30%;
+  margin: 0;
+}
